@@ -1,0 +1,14 @@
+server:
+  name: yash-server
+  port: 80
+
+logging:
+  level:
+    org:
+      springframework:
+            WEB: INFO
+
+spring:
+    profiles:
+      active: dev
+
